@@ -1,0 +1,33 @@
+.container {
+  width: 75%;
+  background-color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: #23294b;
+  text-align: center;
+  margin-bottom: 0.5%;
+  margin-top: 0%;
+}
+
+.table-container {
+  max-height: 450px;
+  overflow-y: auto; 
+  border: 2px solid #eeeff4;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.table {
+  border: 2px solid #eeeff4;
+  border-radius: 5px; 
+  width: 100%;
+}
+
+.supercontainer{
+  padding: 1%;
+  width: 100%;
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  margin-left: -30%;
+}

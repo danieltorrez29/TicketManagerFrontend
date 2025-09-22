@@ -1,0 +1,81 @@
+.container {
+  width: 65%;
+}
+
+h2 {
+  color: #23294b;
+  text-align: center;
+  margin-bottom: 20px; /* Aumenta el espacio entre el título y la tabla */
+}
+
+.table-container {
+  width: 140%; /* Ancho de la tabla */
+  height: 70vh; /* Alto de la tabla */
+  max-height: 70vh;
+  overflow-y: auto;
+  /* Removiendo bordes adicionales */
+  border: 2px solid #eeeff4;
+  border-radius: 5px;
+}
+
+.table {
+  border: 2px solid #eeeff4;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%; /* Ajusta la tabla al 100% del contenedor */
+}
+
+.supercontainer {
+  padding: 6%;
+  border: none; /* Removiendo bordes adicionales */
+  border-radius: 0;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/*Bloque de celda*/
+.input-bloqueado {
+  pointer-events: none;
+  background-color: #ECEBF4 
+}
+
+
+/*Page*/
+
+
+.supercontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+  border: none;
+  border-radius: 0;
+  height: 100vh;
+}
+
+html, body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  width: 65%;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-md-6 {
+  width: 100%;
+  margin-bottom: 20px; /* Espacio entre las columnas */
+}
+

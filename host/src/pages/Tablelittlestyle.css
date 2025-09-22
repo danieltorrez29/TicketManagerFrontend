@@ -1,0 +1,48 @@
+/* Admin.css */
+.navbar-container {
+    margin-top: -60px;
+    width: 98%;
+    
+}
+
+.navbar-nav .nav-link {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    color: #343a40;
+    font-weight: bold;
+}
+
+@media (max-width: 90%) {
+    .navbar-container {
+        width: 100%;
+        padding-top: 5px;
+    }
+}
+
+.content {
+    width: 95%;
+    height: 655px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-container {
+    flex: 1;
+    margin: auto;
+    margin-left: -20px;
+    width: 190%;
+    height: 795px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.ticket-create-container {
+    flex: 1;
+    width: 10%;
+    padding: 2%;
+    margin-top: -4%;
+}
