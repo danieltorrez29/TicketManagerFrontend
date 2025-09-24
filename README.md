@@ -1,8 +1,29 @@
-# Ticket Manager React Micro Frontends
-
-## Overview
-
+<h1 align="center">Ticket Manager React Micro Frontends</h1>
+<p align="center">
 Modular application using Micro Frontends (Webpack Module Federation) to manage shifts / tickets: creation, lookup, cancellation, and status viewing. The `host` container orchestrates navigation, a simple in-memory authentication, and consumption of remote microfrontends.
+</p>
+
+---
+
+<h2 align="left">Index</h2>
+
+- [Core Goals](#core-goals)
+- [Architecture](#architecture)
+- [UML Class Model](#uml-class-model)
+- [Ports / Remotes](#ports--remotes)
+- [Functional Flow (Current)](#functional-flow-current)
+- [Main Routes (Host)](#main-routes-host)
+- [Key Technologies](#key-technologies)
+- [Common Scripts (per microfrontend)](#common-scripts-per-microfrontend)
+- [Local Installation \& Run](#local-installation--run)
+- [Folder Structure](#folder-structure)
+- [Environment Variables](#environment-variables)
+- [Deployment Strategy](#deployment-strategy)
+- [Snapshots](#snapshots)
+- [Current Limitations / Risks](#current-limitations--risks)
+- [Next Improvements](#next-improvements)
+- [Authors](#authors)
+- [License](#license)
 
 ## Core Goals
 
@@ -31,6 +52,10 @@ Modular application using Micro Frontends (Webpack Module Federation) to manage 
 **Styling**: Bootstrap 5 + local CSS modules/files.
 
 **Auth**: Simple role-based redirection (`admin` vs standard user) managed in `AuthContext`. No token management yet.
+
+## UML Class Model
+
+[![UML Class Diagram](./resources/img/diagrams/ticket-manager-react-mf-arquitecture.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/images/diagrams/trivia_client_class_diagram.png)
 
 ## Ports / Remotes
 
@@ -139,6 +164,17 @@ Adjust `publicPath` and remote URLs for production builds.
 3. Update `remotes` in the host `webpack.config.js` to point to production URLs.
 4. Build and deploy host after remotes are live.
 
+## Snapshots
+
+Here are some representative snapshots of the application:
+
+[![Login Screen](./resources/img/snapshots/login.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/home.png)
+[![Signup Screen](./resources/img/snapshots/signup.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/home.png)
+[![View Tickets Screen](./resources/img/snapshots/view-tickets.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/game.png)
+[![Create Ticket Screen](./resources/img/snapshots/create-ticket.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/stats.png)
+[![Delete Ticket Screen](./resources/img/snapshots/delete-ticket.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/podium.png)
+[![Notifications Screen](./resources/img/snapshots/notifications.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/podium.png)
+
 ## Current Limitations / Risks
 
 - No real persistence (mock/in-memory only).
@@ -147,7 +183,7 @@ Adjust `publicPath` and remote URLs for production builds.
 - Hardcoded samples (e.g., identification number field locked in creation form).
 - Lacking form-level + domain validation error system.
 
-## Recommended Next Improvements
+## Next Improvements
 
 - Integrate real backend (REST or GraphQL) for tickets and users.
 - Replace local component state with React Query / Zustand / Redux Toolkit as complexity grows.
