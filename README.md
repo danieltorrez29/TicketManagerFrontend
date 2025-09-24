@@ -168,12 +168,12 @@ Adjust `publicPath` and remote URLs for production builds.
 
 Here are some representative snapshots of the application:
 
-[![Login Screen](./resources/img/snapshots/login.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/home.png)
-[![Signup Screen](./resources/img/snapshots/signup.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/home.png)
-[![View Tickets Screen](./resources/img/snapshots/view-tickets.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/game.png)
-[![Create Ticket Screen](./resources/img/snapshots/create-ticket.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/stats.png)
-[![Delete Ticket Screen](./resources/img/snapshots/delete-ticket.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/podium.png)
-[![Notifications Screen](./resources/img/snapshots/notifications.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/podium.png)
+[![Login Screen](./resources/img/snapshots/login-thumb.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/home.png)
+[![Signup Screen](./resources/img/snapshots/signup-thumb.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/home.png)
+[![View Tickets Screen](./resources/img/snapshots/view-tickets-thumb.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/game.png)
+[![Create Ticket Screen](./resources/img/snapshots/create-ticket-thumb.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/stats.png)
+[![Delete Ticket Screen](./resources/img/snapshots/delete-ticket-thumb.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/podium.png)
+[![Notifications Screen](./resources/img/snapshots/notifications-thumb.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/img/snapshots/podium.png)
 
 ## Current Limitations / Risks
 
