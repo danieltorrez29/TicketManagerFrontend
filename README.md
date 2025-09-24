@@ -9,7 +9,7 @@ Modular application using Micro Frontends (Webpack Module Federation) to manage 
 
 - [Core Goals](#core-goals)
 - [Architecture](#architecture)
-- [UML Class Model](#uml-class-model)
+- [Architecture Diagram](#architecture-diagram)
 - [Ports / Remotes](#ports--remotes)
 - [Functional Flow (Current)](#functional-flow-current)
 - [Main Routes (Host)](#main-routes-host)
@@ -53,9 +53,9 @@ Modular application using Micro Frontends (Webpack Module Federation) to manage 
 
 **Auth**: Simple role-based redirection (`admin` vs standard user) managed in `AuthContext`. No token management yet.
 
-## UML Class Model
+## Architecture Diagram
 
-[![UML Class Diagram](./resources/img/diagrams/ticket-manager-react-mf-arquitecture.png)](https://raw.githubusercontent.com/danieltorrez29/TriviaClient/refs/heads/master/resources/images/diagrams/trivia_client_class_diagram.png)
+[![Architecture Diagram](./resources/img/diagrams/ticket-manager-react-mf-arquitecture.png)](https://raw.githubusercontent.com/danieltorrez29/TicketManagerFrontend/refs/heads/master/resources/img/diagrams/ticket-manager-react-mf-arquitecture.png)
 
 ## Ports / Remotes
 
